@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610509a41f8e448419a7e1a6122c05c0, type: 3}
+  m_Name: TextPrintersConfiguration
+  m_EditorClassIdentifier: 
+  DefaultEasing: 0
+  AutoShowOnModify: 0
+  SceneOrigin: {x: 0.5, y: 0}
+  ZOffset: 100
+  ZStep: 0.1
+  DefaultPrinterId: Dialogue
+  MaxRevealDelay: 0.06
+  MaxAutoWaitDelay: 0.02
+  ScaleAutoWait: 1
+  DefaultMetadata:
+    Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loader:
+      PathPrefix: TextPrinters
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    guid: 8f399729-4140-4ef8-ad5d-b21c6aae7338
+    customData:
+      id: 0
+    Pivot: {x: 0.5, y: 0.5}
+    PixelsPerUnit: 100
+    EnableDepthPass: 1
+    DepthAlphaCutoff: 0.5
+    CustomShader: {fileID: 0}
+    RenderTexture: {fileID: 0}
+    CorrectRenderAspect: 1
+    AutoReset: 1
+    AutoDefault: 1
+    AutoWait: 1
+    AutoLineBreak: 0
+    AddToBacklog: 1
+    SplitBacklogMessages: 0
+    ChangeVisibilityDuration: 0.3
+    PrintFrameDelay: 1
+  Metadata:
+    ids:
+    - Dialogue
+    - Fullscreen
+    - Wide
+    - Chat
+    - Bubble
+    - TMProDialogue
+    - TMProFullscreen
+    - TMProWide
+    - TMProBubble
+    metas:
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 786f38bd-aa41-4652-95e2-c9f75124c0c4
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: d8f113cc-9374-4401-9abf-2abb07b1f14a
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 0
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 2
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 6d3967b0-74ff-413e-b046-eab9a2226d0e
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: fd5a0c4a-863e-438c-a599-f538419364bf
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 0
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 1
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 43620043-db66-4570-b892-36336cf619bb
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: e0bb2b1f-8c6b-4e56-8516-7d40f6f5243b
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 74bb7a29-804f-4af8-a686-52d8711a6402
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 0
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 2
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 297ce781-47f4-4495-85d0-ad82ee98e3ca
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: TextPrinters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 1969917d-976b-43e0-96fc-d8ee02c40f96
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
