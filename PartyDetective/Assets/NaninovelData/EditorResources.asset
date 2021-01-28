@@ -155,3 +155,11 @@ MonoBehaviour:
     - Name: TestScript
       PathPrefix: Scripts
       Guid: e7908f459ae1899449917d451a315169
+    - Name: TitleScript
+      PathPrefix: Scripts
+      Guid: 5100d704a5a1d70448a6d231d3f443f8
+  - Id: Backgrounds/415bc628-79f1-44ee-ba34-cb3bbcc6473a
+    Resources:
+    - Name: TitleBG
+      PathPrefix: Backgrounds/MainBackground
+      Guid: f070ca00fd729684d8f39ec6b07109c8
