@@ -158,8 +158,23 @@ MonoBehaviour:
     - Name: TitleScript
       PathPrefix: Scripts
       Guid: 5100d704a5a1d70448a6d231d3f443f8
+    - Name: TestScript2
+      PathPrefix: Scripts
+      Guid: 767aa337cde86e4478a48b8f47f5eeb0
+    - Name: TestScript3
+      PathPrefix: Scripts
+      Guid: 8c68f83e96b457a4aa1d31e0e1d6bc6e
+    - Name: EndTestScript
+      PathPrefix: Scripts
+      Guid: e7689d9b47f2d5245b5bb96e2adf76ca
   - Id: Backgrounds/415bc628-79f1-44ee-ba34-cb3bbcc6473a
     Resources:
+    - Name: SampleBG1
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 56cb03396afc6ae4680f167c28a691cd
+    - Name: SampleBG2
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 0845019fb5e515f41b08e3b1ed890575
     - Name: TitleBG
       PathPrefix: Backgrounds/MainBackground
       Guid: f070ca00fd729684d8f39ec6b07109c8

@@ -1,10 +1,15 @@
 #Scene1
 
-let's try this.
+@back SampleBG1
 
-@testCommand
-@testCommand message:Matt
+day one. let's try this.
+
+@levelEquals Level:1
 
 @detective
 
 @stop
+
+
+
+

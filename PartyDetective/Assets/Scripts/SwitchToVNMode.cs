@@ -35,8 +35,13 @@ public class SwitchToVNMode : Command
             await scriptPlayer.PreloadAndPlayAsync(ScriptName, label: Label);
         }
 
+        //var stateManager = Engine.GetService<IStateManager>();
+        //await stateManager.LoadGameAsync("varStorage");
+
         // 4. Enable Naninovel input.
         var inputManager = Engine.GetService<IInputManager>();
         inputManager.ProcessInput = true;
+
+
     }
 }

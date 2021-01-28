@@ -36,10 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ChangeLevelNumber.cs" />
      <Compile Include="Assets\Scripts\DetectiveScene.cs" />
      <Compile Include="Assets\Scripts\GameStateSystem.cs" />
      <Compile Include="Assets\Scripts\SwichToGameMode.cs" />
      <Compile Include="Assets\Scripts\SwitchToVNMode.cs" />
+     <Compile Include="Assets\Scripts\TempScripts\DisplayLevelNumber.cs" />
      <Compile Include="Assets\Scripts\TempScripts\ExitButton.cs" />
      <Compile Include="Assets\Scripts\TestCommand.cs" />
      <Compile Include="Assets\Scripts\VNController.cs" />

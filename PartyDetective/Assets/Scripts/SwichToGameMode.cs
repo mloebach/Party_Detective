@@ -20,6 +20,7 @@ public class SwitchToAdventureMode : Command
 
         // 3. Reset state.
         var stateManager = Engine.GetService<IStateManager>();
+        //await stateManager.SaveGameAsync("varStorage");
         await stateManager.ResetStateAsync();
 
         // 4. Switch cameras.
@@ -35,5 +36,8 @@ public class SwitchToAdventureMode : Command
         var detectiveScene = GameObject.Find("DetectiveSceneObject").transform.GetChild(0).gameObject;
         detectiveScene.SetActive(true);
         //detectiveScene.enabled = true;
+
+        //var gameManagerScene = GameObject.Find("GameStateSystem");
+
     }
 }
